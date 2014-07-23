@@ -61,7 +61,6 @@ WSGI_APPLICATION = 'eventex.wsgi.application'
 DATABASES = {
     'default': dj_database_url.config(
         default='sqlite3:///' + BASE_DIR.child('db.sqlite3'))
-    }
 }
 
 # Internationalization
